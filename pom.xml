@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.u51.calcite</groupId>
     <artifactId>calcite-patch</artifactId>
-    <version>1.18.0-M1-SNAPSHOT</version>
+    <version>1.18.0-M1</version>
 
     <!-- oss -->
     <parent>
@@ -23,9 +21,9 @@
         </license>
     </licenses>
     <scm>
-        <connection>scm:git:git@github.com:51nb/marble.git</connection>
-        <developerConnection>scm:git:https://github.com/51nb/marble.git</developerConnection>
-        <url>https://github.com/51nb/marble</url>
+        <connection>scm:git:git@github.com:51nb/calcite-patch.git</connection>
+        <developerConnection>scm:git:https://github.com/51nb/calcite-patch.git</developerConnection>
+        <url>https://github.com/51nb/calcite-patch</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -39,14 +37,14 @@
 
     <issueManagement>
         <system>GitHub Issues</system>
-        <url>https://github.com/51nb/marble/issues</url>
+        <url>https://github.com/51nb/calcite-patch/issues</url>
     </issueManagement>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <top.dir>${project.basedir}/..</top.dir>
+        <top.dir>${project.basedir}</top.dir>
 
         <calcite.version>1.18.0</calcite.version>
 
