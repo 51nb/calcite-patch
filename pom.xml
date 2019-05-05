@@ -25,7 +25,7 @@
     <scm>
         <connection>scm:git:git@github.com:51nb/calcite-patch.git</connection>
         <developerConnection>scm:git:https://github.com/51nb/calcite-patch.git</developerConnection>
-        <url>https://github.com/51nb/calcite-patch</url>
+        <url>https://github.com/51nb/calcite-patch.git</url>
         <tag>HEAD</tag>
     </scm>
 
