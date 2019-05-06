@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.u51.calcite</groupId>
     <artifactId>calcite-patch</artifactId>
-    <version>1.18.0-M2</version>
+    <version>1.18.0-M3-SNAPSHOT</version>
 
     <!-- oss -->
     <parent>
