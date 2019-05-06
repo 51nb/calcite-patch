@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.u51.calcite</groupId>
     <artifactId>calcite-patch</artifactId>
-    <version>1.18.0-M2-SNAPSHOT</version>
+    <version>1.18.0-M2</version>
 
     <!-- oss -->
     <parent>
@@ -79,6 +79,7 @@
             <groupId>org.apache.calcite</groupId>
             <artifactId>calcite-linq4j</artifactId>
             <version>${calcite.version}</version>
+            <optional>true</optional>
         </dependency>
 
         <dependency>
@@ -210,6 +211,17 @@
                                         org/apache/calcite/sql2rel/StandardConvertletTable.class,
                                         org/apache/calcite/tools/Programs.class,
                                         org/apache/calcite/util/BuiltInMethod.class
+                                    </excludes>
+                                </artifactItem>
+                                <artifactItem>
+                                    <groupId>org.apache.calcite</groupId>
+                                    <artifactId>calcite-linq4j</artifactId>
+                                    <outputDirectory>${project.build.directory}/classes</outputDirectory>
+                                    <includes>
+                                        **/**
+                                    </includes>
+                                    <excludes>
+                                        org/apache/calcite/linq4j/EnumerableDefaults.class
                                     </excludes>
                                 </artifactItem>
                             </artifactItems>
